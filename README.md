@@ -18,7 +18,7 @@ Fuzzy logic is derived from this idea and can be applied in many different compu
 
 <a target="_blank"><img src="http://i65.tinypic.com/2z4zkwh.png" border="0" alt="System Design"></a>
 
-## The Implementation'
+## The Implementation
 
 The implementation of this intelligent traffic system with fuzzy logic focuses on determining the wait time for a given side of the street. When given the number of cars waiting at the intersection along with the number of oncoming cars, the program will perform the fuzzification and defuzzification process in order to suggest the approximate wait time. During the fuzzification process each of the values are passed into their own functions. These functions are the fuzzification process which determines the fuzzy set for each of the sensors. 
 
