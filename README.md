@@ -26,4 +26,6 @@ The implementation of this intelligent traffic system with fuzzy logic focuses o
 
 The fuzzy sets returned from these functions are then used to infer the linguistic value corresponding to how busy the particular intersection might be. After an inference as to what the state of the intersection may be, that inference is passed into the defuzzification process which outputs the the suggested wait time for the cars on the corresponding street.
 
+## Conclusion
 
+Smarter, faster, and more dynamic traffic systems are becoming necessary in cities with rapid population growth. These intelligent traffic light systems have proven to have positive effects in society and have challenged computer scientists around the world to try and create better systems for traffic management. Further development into the current state of this fuzzy logic controller would yield better results, for it only has the capabilities of determining the status of a single street. The future of intelligent traffic management systems is bright and it is only a matter of time before systems such as these are implemented in many cities around the world. 
