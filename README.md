@@ -2,7 +2,7 @@
 
 The purpose of this project is to address the design and implementation of an intelligent traffic light system based on fuzzy logic technology. Using Python, a fuzzy logic system has been developed to determine the wait time of a typical traffic junction.
 
-<a target="_blank"><img width="950" height="400" src="https://raw.githubusercontent.com/ctlong12/TrafficControllerFuzzyLogic/master/images/traffic-lights.png" align = "center" border="0" alt="High Level Overview"></a>
+<a target="_blank"><img width="950" height="275" src="https://raw.githubusercontent.com/ctlong12/TrafficControllerFuzzyLogic/master/images/traffic-lights.png" align = "center" border="0" alt="High Level Overview"></a>
 
 ## Prerequisites
 
@@ -12,7 +12,7 @@ In order to develop an intelligent traffic light system using fuzzy logic, it is
 
 At its core, fuzzy logic is an approach to computing based on "degrees of truth" rather than the usual "true or false" boolean logic on which modern computers are based on. For example, if trying to describe how honest someone is, we might try and be more specific than simple stating he/she is honest or dishonest. One might specify that someone is a little honest, very honest, or not honest at all. 
 
-<a target="_blank"><img src="https://raw.githubusercontent.com/ctlong12/TrafficControllerFuzzyLogic/master/images/state-diagram.png" border="0" alt="Fuzzy Logic"></a>
+<a target="_blank"><img src="https://raw.githubusercontent.com/ctlong12/TrafficControllerFuzzyLogic/master/images/fuzzy-graphs.png" border="0" alt="Fuzzy Logic"></a>
 
 Fuzzy logic is derived from this idea and can be applied in many different computational situations. This fuzzy logic traffic system isn’t like that of a typical traffic system. The model observes the number of cars currently waiting as well as the number of cars coming into the intersection. Rules are developed to generically describe the status of a single street of the intersection. Anywhere from 0 - 10 cars can be described as minimal traffic, while 50 or more cars can be described as standstill traffic. The same logic is applied to cars that are coming into the intersection giving an overall sense of busy the street is and as well as how busy the street may become. 
 
@@ -22,7 +22,7 @@ Fuzzy logic is derived from this idea and can be applied in many different compu
 
 The implementation of this intelligent traffic system with fuzzy logic focuses on determining the wait time for a given side of the street. When given the number of cars waiting at the intersection along with the number of oncoming cars, the program will perform the fuzzification and defuzzification process in order to suggest the approximate wait time. During the fuzzification process each of the values are passed into their own functions. These functions are the fuzzification process which determines the fuzzy set for each of the sensors. 
 
-<a target="_blank"><img src="http://i64.tinypic.com/207vkgo.png" border="0" alt="Fuzzy System"></a>
+<a target="_blank"><img src="https://raw.githubusercontent.com/ctlong12/TrafficControllerFuzzyLogic/master/images/fuzzy-engine.png" border="0" alt="Fuzzy System"></a>
 
 The fuzzy sets returned from these functions are then used to infer the linguistic value corresponding to how busy the particular intersection might be. After an inference as to what the state of the intersection may be, that inference is passed into the defuzzification process which outputs the the suggested wait time for the cars on the corresponding street.
 
