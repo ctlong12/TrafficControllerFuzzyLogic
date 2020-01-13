@@ -16,7 +16,7 @@ At its core, fuzzy logic is an approach to computing based on "degrees of truth"
 
 Fuzzy logic is derived from this idea and can be applied in many different computational situations. This fuzzy logic traffic system isn’t like that of a typical traffic system. The model observes the number of cars currently waiting as well as the number of cars coming into the intersection. Rules are developed to generically describe the status of a single street of the intersection. Anywhere from 0 - 10 cars can be described as minimal traffic, while 50 or more cars can be described as standstill traffic. The same logic is applied to cars that are coming into the intersection giving an overall sense of busy the street is and as well as how busy the street may become. 
 
-<a target="_blank"><img src="http://i65.tinypic.com/2z4zkwh.png" border="0" alt="System Design"></a>
+<a target="_blank"><img src="https://raw.githubusercontent.com/ctlong12/TrafficControllerFuzzyLogic/master/images/sensors.png" border="0" alt="System Design"></a>
 
 ## The Implementation
 
